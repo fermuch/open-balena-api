@@ -1,4 +1,25 @@
 - commits:
+    - subject: Add RESIN_HOST_SPLASH_IMAGE config var in the schema
+      hash: 59441673153de986e7c5391d49b867a58b36d3fe
+      body: ''
+      footer:
+        Resolves: '#530'
+        resolves: '#530'
+        Change-type: minor
+        change-type: minor
+        Depends-on: 'https://github.com/balena-os/meta-balena/pull/2092'
+        depends-on: 'https://github.com/balena-os/meta-balena/pull/2092'
+        See: >-
+          https://www.flowdock.com/app/rulemotion/r-etcherprv/threads/uBhQEVeU3r8gmPdHIzpfffbhSGM
+        see: >-
+          https://www.flowdock.com/app/rulemotion/r-etcherprv/threads/uBhQEVeU3r8gmPdHIzpfffbhSGM
+        Signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+        signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+      author: Thodoris Greasidis
+      nested: []
+  version: 0.117.0
+  date: 2021-01-08T17:39:06.004Z
+- commits:
     - subject: Split npm script for model typings generation to two separate ones
       hash: e8a4c20fab016016e96ab07392edb32dae30e221
       body: ''
