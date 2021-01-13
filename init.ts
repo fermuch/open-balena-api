@@ -11,6 +11,7 @@ const getUrl = (req: express.Request) => req.url;
 async function onInitMiddleware(initApp: express.Application) {
 	const { forwardRequests } = await import('./src/infra/versions');
 	forwardRequests(initApp, 'v6', 'resin');
+	forwardRequests(initApp, 'v5', 'resin');
 }
 
 async function onInitModel() {
